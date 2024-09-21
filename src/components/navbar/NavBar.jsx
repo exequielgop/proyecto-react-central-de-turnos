@@ -1,3 +1,4 @@
+import React from 'react'
 import Shifts from "../shifts/Shifts";
 import './NavBar.css';
 
