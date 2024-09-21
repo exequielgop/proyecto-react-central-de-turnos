@@ -17,6 +17,6 @@ const hrefBasePath = () => {
 };
 
 export default defineConfig({
-  base: "/base/",
+  base: "/proyecto-react-central-de-turnos/",
   plugins: [hrefBasePath()],
 });
