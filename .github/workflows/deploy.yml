@@ -26,12 +26,6 @@ jobs:
 
     - uses: fregante/setup-git-user@v1
 
-    # - name: registry github email
-    #   run: git config --global user.email <email>
-
-    # - name: registry github name
-    #   run: git config --global user.name <name>
-
     - name: deploy the app
       run: npm run deploy
       env:
