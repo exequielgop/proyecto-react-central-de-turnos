@@ -2,6 +2,8 @@ import Shifts from "../shifts/Shifts";
 import './NavBar.css';
 
 const NavBar = () => {
+    // Suponiendo que tenemos un hook que le pega a una API para traer los turnos del usuario
+    const turnos = 3
     return (
         <nav>
             <h1>CenTurOn - Central de Turnos Online</h1>
@@ -11,7 +13,7 @@ const NavBar = () => {
                 <li><a href="#">Especialistas</a></li>
                 <li><a href="#">Nosotros</a></li>
                 <li><a href="#">Contacto</a></li>
-                <li><Shifts /></li>
+                <li><Shifts turnos={turnos}/></li>
             </ul>
         </nav>
     );
