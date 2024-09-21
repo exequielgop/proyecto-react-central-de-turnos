@@ -4,7 +4,7 @@ import './NavBar.css';
 const NavBar = () => {
     return (
         <nav>
-            <h1>Central de Turnos CeTur</h1>
+            <h1>CenTurOn - Central de Turnos Online</h1>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Servicios</a></li>
