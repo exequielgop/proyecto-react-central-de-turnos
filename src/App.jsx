@@ -8,7 +8,7 @@ function App() {
   const data = [
     {
       titulo: 'Cardiología',
-      descripcion: 'Especialidad médica que se ocupa del diagnóstico y tratamiento de las enfermedades del corazón y del aparato circulatorio.',
+      descripcion: 'Especialidad médica que se ocupa del diagnóstico y tratamiento de las enfermedades del corazón y del aparato circulatorio. ',
       imagen: 'https://www.healthstaffrecruitment.com.au/wp-content/uploads/2015/05/bigstock-Portrait-of-young-woman-doctor-70264798-1024x1024.jpg',
     },
     {
