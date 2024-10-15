@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import './ProfessionalListContainer.css';
 
-const Grid = ({ data }) => {
+const ProfesionalsContainer = ({ data }) => {
     return (
         <div className="grid-container">
             {data.map((item, index) => (
@@ -21,9 +21,9 @@ const Grid = ({ data }) => {
     );
 };
 
-export default Grid;
+export default ProfesionalsContainer;
 
-Grid.propTypes = {
+ProfesionalsContainer.propTypes = {
     data: PropTypes.arrayOf(PropTypes.shape({
         title: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
